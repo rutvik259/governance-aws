@@ -11,6 +11,7 @@ export function createTrackerReport (processingDate:number, startTime:number, ov
     const timestamp = new Date().getTime();
     //Information about the table, and the input we want to give.
     const params = {
+   
         TableName: process.env.TRACKER_TABLE,
         Item:{
             id:uuid(),
