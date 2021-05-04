@@ -29,6 +29,9 @@ export function createTrackerReport (processingDate:number, startTime:number, ov
             updatedAt:timestamp
         }
     }
+
+
+    
     console.log(params)
     return dynamodb
             .put(params)
