@@ -12,6 +12,7 @@
   "dependencies": {
     "@middy/core": "^1.5.2",
     "@middy/http-json-body-parser": "^1.5.2",
+    "aws-sdk": "^2.899.0",
     "serverless-dotenv-plugin": "^3.9.0",
     "serverless-offline": "^7.0.0",
     "source-map-support": "^0.5.19"
